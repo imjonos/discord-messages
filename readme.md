@@ -8,6 +8,14 @@ Via Composer
 $ composer require imjonos/discord-messages
 ```
 
+## How to use
+
+use Nos\DiscordMessages\DiscordMessage;
+use Nos\DiscordMessages\DiscordSender;
+
+$sender = new DiscordSender(WEBHOOK_URL);
+$sender->send(DiscordMessage('text'));
+
 ## Contributing
 
 Please see [contributing.md](contributing.md) for details and a todolist.
