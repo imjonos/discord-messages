@@ -10,11 +10,11 @@ $ composer require imjonos/discord-messages
 
 ## How to use
 
-use Nos\DiscordMessages\DiscordMessage;
-use Nos\DiscordMessages\DiscordSender;
-
-$sender = new DiscordSender(WEBHOOK_URL);
-$sender->send(DiscordMessage('text'));
+use Nos\DiscordMessages\DiscordMessage; <br>
+use Nos\DiscordMessages\DiscordSender; <br>
+<br>
+$sender = new DiscordSender(WEBHOOK_URL);<br>
+$sender->send(DiscordMessage('text'));<br>
 
 ## Contributing
 
