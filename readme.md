@@ -14,7 +14,7 @@ use Nos\DiscordMessages\DiscordMessage; <br>
 use Nos\DiscordMessages\DiscordSender; <br>
 <br>
 $sender = new DiscordSender(WEBHOOK_URL);<br>
-$sender->send(DiscordMessage('text'));<br>
+$sender->send(new DiscordMessage('text'));<br>
 
 ## Contributing
 
